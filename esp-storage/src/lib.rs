@@ -38,7 +38,7 @@ pub use common::{FlashStorage, FlashStorageError};
 mod storage;
 
 #[cfg(feature = "nor-flash")]
-mod nor_flash;
+pub mod nor_flash;
 
 #[cfg(feature = "low-level")]
 pub mod ll;
